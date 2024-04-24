@@ -13,4 +13,7 @@ document properly.
 
 ## Licensing and Copyright
 
-This
+This template's source code is licensed under the GNU Lesser General Public License. You are hereby permitted to use and modify this template for any purpose,
+with or without modification, with the following caveat:
+
+> Use it for good, not evil.
