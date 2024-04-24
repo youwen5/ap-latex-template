@@ -59,7 +59,6 @@ This template's source code is licensed under the GNU General Public License. Yo
 with or without modification, as long as you retain a copy of this license and the source code for viewing on request. 
 
 [^1]: As with all of my software, this comes with one caveat:
-
 > Use it for good, not evil.
 
 ---
