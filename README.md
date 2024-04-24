@@ -1,6 +1,6 @@
 # AP Style LaTeX Template
 
-This is a $\LaTeX$ template that aims to superficially emulate the layout of an AP-exam style test - both the Free
+This is a $\text{\LaTeX}$ template that aims to superficially emulate the layout of an AP-exam style test - both the Free
 Response, and Multiple Choice portions. It is designed to compile with TeXLive 2023, but should also compile
 on `tectonic` and other similar distributions. As it is based on TeXLive, it will, of course, work on Overleaf.
 
@@ -9,7 +9,7 @@ on `tectonic` and other similar distributions. As it is based on TeXLive, it wil
 > [!IMPORTANT]
 > Make sure you read the [editing instructions section](#editing-instructions) below to get a brief description of
 > how this document's file structure is set up. It's designed closer to the structure of source code,
-> not the typical structure of a $\LaTeX$ document.
+> not the typical structure of a $\text{\LaTeX}$ document.
 
 ### On Overleaf (easiest)
 
