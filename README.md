@@ -8,7 +8,9 @@ on Overleaf.
 
 ## Using the template
 
-> [!IMPORTANT] Make sure you read the
+<!-- prettier-ignore -->
+> [!IMPORTANT]
+> Make sure you read the
 > [editing instructions section](#editing-instructions) below to get a brief
 > description of how this document's file structure is set up. It's designed
 > closer to the structure of source code, not the typical structure of a
@@ -23,7 +25,9 @@ a copy of it to use and edit.
 Or, if you prefer (or if the Overleaf link is not available), simply download
 this repository as a `zip` file and upload it to Overleaf to use it.
 
-> [!TIP] If Overleaf fails to compile, click the menu button in the top right,
+<!-- prettier-ignore -->
+> [!TIP]
+> If Overleaf fails to compile, click the menu button in the top right,
 > and ensure that you are:
 >
 > - Using the `pdfLaTeX` compiler
