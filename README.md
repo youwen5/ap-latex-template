@@ -11,7 +11,7 @@ on `tectonic` and other similar distributions. As it is based on TeXLive, it wil
 > how this document's file structure is set up. It's designed closer to the structure of source code,
 > not the typical structure of a $\LaTeX$ document.
 
-### On Overleaf (easiest)[^1]
+### On Overleaf (easiest)
 
 You can view a read-only copy of this repository on [Overleaf here](https://www.overleaf.com/read/kqyyygvfntng#f382d8).
 Simply make a copy of it to use and edit.
@@ -55,11 +55,7 @@ In particular, the following information may be helpful:
 
 ## Licensing and Copyright
 
-This template's source code is licensed under the GNU General Public License. You are hereby permitted to use and redistribute this template for any purpose[^2],
+This template's source code is licensed under the GNU General Public License. You are hereby permitted to use and redistribute this template for any purpose[^1],
 with or without modification, as long as you retain a copy of this license and the source code for viewing on request.
 
-[^1]:
-    Though Overleaf is convenient, I highly recommend that you avoid using the hosted version at [overleaf.com](https://www.overleaf.com).
-    It's the very definition of [Service as a Software Substitute (SaaSS)](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html), and there's no reason why you shouldn't be using local software if it's available. Overleaf itself is [free software](https://github.com/overleaf/overleaf), and you should try to self host it if you are able.
-
-[^2]: As with all of my software, this comes with one caveat: Use it for good, not evil.
+[^1]: As with all of my software, this comes with one caveat: Use it for good, not evil.
