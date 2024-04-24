@@ -1,18 +1,27 @@
+% the prelude is where package imports and some basic setup are performed
 \input{lib/prelude}
 
 \setlength{\footskip}{1in}  % Adjust the footskip value
 
+% we need fancy page style to have the footers
 \pagestyle{fancy}
+
+% if you need citations. otherwise, you can remove it
 \addbibresource{citations.bib}
 
+% document metadata goes here
 \begin{document}
 \title{Very Evil AP Exam}
 \author{Richard M. Stallman}
 \date{\today}
 \maketitle
 
-\input{src/footer}
+% the footer is added here. edit src/footer.tex to customize it, or
+% remove it if you don't need it.
+\input{src/header-and-footer}
 
+% here's where the MCQ questions are rendered. you can edit them in
+% src/mcq.tex
 \input{src/mcq}
 
 \onecolumn
@@ -33,9 +42,13 @@
   \end{center}
 \end{adjustwidth}
 
+% here's where the FRQ questions gets rendered. you can edit it in the
+% src/frq.tex file
 \bigskip
 \input{src/frq}
 
+% here's where the final page with the STOP sign is rendered
+% you can remove it, or edit src/end.tex to customize it
 \onecolumn
 \sffamily
 \bfseries
@@ -43,6 +56,8 @@
 
 
 \large
-\printbibliography
+
+% remove this bibliography section if you don't need it
+% \printbibliography
 
 \end{document}

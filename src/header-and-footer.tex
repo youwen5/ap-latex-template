@@ -1,7 +1,13 @@
+% this section controls the headers and footers on the first
+% page
 \fancypagestyle{plain}{
   \fancyhf{}
   \rfoot{\sffamily\bfseries\large{GO ON TO THE NEXT PAGE}}
   \cfoot{-~\thepage~-}
+  % delete the header line
+  \renewcommand{\headrulewidth}{0pt} 
+
+% create the box around text in the bottom left
   \lfoot{
     \begin{minipage}[b]{\textwidth}
       \fbox{
@@ -14,8 +20,14 @@
   }
 }
 
+% this section controls the header and footer on every page that
+% ISN'T the first or last page
 \rfoot{\sffamily\bfseries\large{GO ON TO THE NEXT PAGE}}
 \cfoot{-~\thepage~-}
+% delete the header line
+\renewcommand{\headrulewidth}{0pt} 
+
+% create the box around text in the bottom left
 \lfoot{
   \begin{minipage}[b]{\textwidth}
     \fbox{
@@ -27,8 +39,10 @@
   \end{minipage}
 }
 
+% NOTE: the footer on the last page is defined in its own file (end.tex)
+
 % Define a new page style for the last page
-\fancypagestyle{lastpage}{
-  \fancyhf{}
-  \rfoot{none}
-}
+% \fancypagestyle{lastpage}{
+%   \fancyhf{}
+%   \rfoot{none}
+% }
