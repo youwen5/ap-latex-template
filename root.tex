@@ -1,0 +1,48 @@
+\input{lib/prelude}
+
+\setlength{\footskip}{1in}  % Adjust the footskip value
+
+\pagestyle{fancy}
+\addbibresource{citations.bib}
+
+\begin{document}
+\title{Very Evil AP Exam}
+\author{Richard M. Stallman}
+\date{\today}
+\maketitle
+
+\input{src/footer}
+
+\input{src/mcq}
+
+\onecolumn
+
+% set time for the FRQ here
+\begin{adjustwidth}{1in}{1in}
+  \begin{center}
+    \textbf{
+      CHAPTER 14 \\
+      \medskip
+      SECTION II: FREE RESPONSE \\
+      \medskip
+      Total Time -- 15 minutes \\
+      \medskip
+      Reading Period -- 5 minutes \\
+      \medskip
+      Writing Period -- 10 minutes}
+  \end{center}
+\end{adjustwidth}
+
+\bigskip
+\input{src/frq}
+
+\onecolumn
+\sffamily
+\bfseries
+\input{src/end}
+
+
+\large
+\printbibliography
+
+\end{document}
