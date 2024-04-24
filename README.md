@@ -55,7 +55,11 @@ In particular, the following information may be helpful:
 
 ## Licensing and Copyright
 
-This template's source code is licensed under the GNU General Public License. You are hereby permitted to use and modify this template for any purpose,
-with or without modification, as long as you retain a copy of this license and the source code for viewing on request, and with the following caveat:
+This template's source code is licensed under the GNU General Public License. You are hereby permitted to use and redistribute this template for any purpose[^1],
+with or without modification, as long as you retain a copy of this license and the source code for viewing on request. 
+
+[^1]: As with all of my software, this comes with one caveat:
 
 > Use it for good, not evil.
+
+---
