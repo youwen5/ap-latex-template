@@ -34,6 +34,8 @@ this repository as a `zip` file and upload it to Overleaf to use it.
 > - Using the TeXLive 2023 distribution
 > - Set the 'Main document' to `root.tex` (by default, Overleaf may try to
 >   compile from `prelude.tex` instead)
+> - Delete the `latexmkrc` file. It may be causing `latexmk` to compile the document
+>   with settings incompatible with Overleaf.
 
 ### Compile locally
 
