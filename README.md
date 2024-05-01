@@ -80,6 +80,6 @@ In particular, the following information may be helpful:
 This template's source code is licensed under the GNU General Public License.
 You are hereby permitted to use and redistribute this template for any purpose,
 with or without modification, as long as you retain a copy of this license and
-the source code for viewing on request, and with one caveat:
+the source code for viewing on request, and with the following conditions:
 
 > Use it for good, not evil.
